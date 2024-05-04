@@ -1,0 +1,24 @@
+[
+    {
+        "OrdemID": 1,
+        "DataCriacao": "/Date(1296633751000)/",
+        "CriadoPor": "ABAP",
+        "ClienteId": 1000234684,
+        "TotalItens": 23,
+        "TotalFrete": 100,
+        "TotalOrdem": 23.000,
+        "Status": "N"
+    },
+    {
+        "OrdemID": 2,
+        "DataCriacao": "/Date(554841955000)/",
+        "CriadoPor": "FELIPE",
+        "ClienteId": 1139037862,
+        "TotalItens": 2,
+        "TotalFrete": 10,
+        "TotalOrdem": 20.00,
+        "Status": "L"
+    }
+    
+   
+]
