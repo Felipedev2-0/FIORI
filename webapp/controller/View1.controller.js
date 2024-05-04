@@ -1,24 +1,25 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
+    "sap/ui/core/mvc/Controller",
+    "sap/m/MessageToast"
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller) {
+    function (Controller, MessageToast) {
         "use strict";
 
         return Controller.extend("zov.controller.View1", {
             onInit: function () {
-                alert("onInit")
+                //alert("onInit")
 
             },
 
             onBeforeRendering: function () {
-                alert("onBeforeRendering")
+                //alert("onBeforeRendering")
             },
 
             onAfterRendering: function () {
-                alert("onAfterRendering")
+                //alert("onAfterRendering")
             },
 
             onExit: function () {
@@ -37,6 +38,8 @@ sap.ui.define([
                 fResultado = (iB1 + iB2 + iB3 + iB4) / 4
 
                 oView.byId("resultado").setValue(fResultado)
+
+                MessageToast.show("Resultado = " + fResultado)
             }
 
         });
