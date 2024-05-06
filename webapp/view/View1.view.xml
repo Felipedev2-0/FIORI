@@ -2,93 +2,17 @@
     controllerName="zov.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     displayBlock="true"
-    xmlns:f="sap.ui.layout.form"
     xmlns:core="sap.ui.core"
+    xmlns:t="sap.ui.table"
     xmlns="sap.m"
 >
     <Page
         id="page"
         title="{i18n>title}"
     >
-        <f:Form
-            id="FormChange354"
-            editable="true"
-        >
-            <f:title>
-                <core:Title id="_IDGenTitle1" text="Calculadora" />
-            </f:title>
-            <f:layout>
-                <f:ResponsiveGridLayout id="_IDGenResponsiveGridLayout1"
-                    labelSpanXL="3"
-                    labelSpanL="3"
-                    labelSpanM="3"
-                    labelSpanS="3"
-                    adjustLabelSpan="false"
-                    emptySpanXL="4"
-                    emptySpanL="4"
-                    emptySpanM="4"
-                    emptySpanS="0"
-                    columnsXL="1"
-                    columnsL="1"
-                    columnsM="1"
-                    singleContainerFullSize="false"
-                />
-            </f:layout>
-            <f:formContainers id="_IDGenFormContainers1">
-                <f:FormContainer id="_IDGenFormContainer1">
-                    <f:formElements id="_IDGenFormElements1">
-                        <f:FormElement id="_IDGenFormElement1" label="1º Bimestre">
-                            <f:fields>
-                                <Input
-                                    value=""
-                                    id="b1"
-                                />
-                            </f:fields>
-                        </f:FormElement>
-                        <f:FormElement id="_IDGenFormElement2" label="2º Bimestre">
-                            <f:fields>
-                                <Input
-                                    value=""
-                                    id="b2"
-                                />
-                            </f:fields>
-                        </f:FormElement>
-                        <f:FormElement id="_IDGenFormElement3" label="3º Bimestre">
-                            <f:fields>
-                                <Input
-                                    value=""
-                                    id="b3"
-                                />
-                            </f:fields>
-                        </f:FormElement>
-                        <f:FormElement id="_IDGenFormElement5" label="4º Bimestre">
-                            <f:fields>
-                                <Input
-                                    value=""
-                                    id="b4"
-                                />
-                            </f:fields>
-                        </f:FormElement>
-                        <f:FormElement id="_IDGenFormElement4" label="Resultado">
-                            <f:fields>
-                                <Input
-                                    value=""
-                                    id="resultado"
-                                    editable="false"
-                                />
-                            </f:fields>
-                        </f:FormElement>
-                        <f:FormElement id="_IDGenFormElement6" label="">
-                            <f:fields>
-                                <Button id="_IDGenButton1"
-                                    text="Calcular"
-                                    press="onCalcular"
-                                />
-                            </f:fields>
-                        </f:FormElement>
-                    </f:formElements>
-                </f:FormContainer>
-            </f:formContainers>
-        </f:Form>
+        <VBox id="_IDGenVBox1" class="sapUiTinyMargin">
+            <Button id="_IDGenButton1" text="Novo Cliente" press="onNewCustomer"/>
+            <Button id="_IDGenButton2" text="Modificar Cliente 1" press="onEditCustomer1"/>
+        </VBox>
     </Page>
 </mvc:View>
