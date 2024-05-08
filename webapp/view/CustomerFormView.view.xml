@@ -10,7 +10,7 @@
         id="page2"
         title="Formulário de Cliente"
         showNavButton="true"
-        navButtonPress="onNavBack"
+        navButtonPress="onNavBack"  
     >
         <VBox
             id="_IDGenVBox1"
@@ -22,7 +22,7 @@
             />
             <Button
                 id="_IDGenButton1"
-                text="Voltar para a View1"
+                text="Voltar para menu de Formulários"
                 press="onView1"
             />
         </VBox>
